@@ -12,7 +12,7 @@ URL:		http://kldp.net/projects/imhangul/
 Source:		%{name}-%{version}.tar.bz2
 
 BuildRequires:	gnome-panel-devel >= 2.0.0
-Prereq:		GConf2 >= 2.3.3
+Requires(post,preun):	GConf2 >= 2.3.3
 Requires:	imhangul >= 0.9.4
 
 %description
