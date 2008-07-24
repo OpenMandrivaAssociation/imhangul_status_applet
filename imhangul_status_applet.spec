@@ -1,5 +1,5 @@
 %define version 0.3
-%define release %mkrel 2
+%define release %mkrel 4
 
 Summary:	GTK+ 2.x hangul input module status applet
 Name:		imhangul_status_applet
