@@ -7,7 +7,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		System/Internationalization
-URL:		http://kldp.net/projects/imhangul/
+URL:		https://kldp.net/projects/imhangul/
 Buildroot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 Source:		%{name}-%{version}.tar.bz2
